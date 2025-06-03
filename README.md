@@ -32,6 +32,16 @@ A Laravel 10-based real estate management system that allows admins to manage pr
 
 ---
 
+### 🖼️ Screenshots
+
+<p float="left">
+  <img src="assets/screenshots/dashboard.png" width="250" />
+  <img src="assets/screenshots/property-list.png" width="250" />
+  <img src="assets/screenshots/reservation-view.png" width="250" />
+</p>
+
+---
+
 ## 🛠️ Technologies Used
 
 -   Laravel 10
