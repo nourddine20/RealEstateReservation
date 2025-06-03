@@ -334,7 +334,7 @@
 
     <div class="row">
       <div class="col-md-8 col-md-offset-2">
-      <form name="contact-form"  id="ajaxpostdemande" method="POST" action="{{route('getajaxpost.demande">
+      <form name="contact-form"  id="ajaxpostdemande" method="POST" action="{{route('getajaxpost.demande')}}">
           @csrf
           <div class="messages"></div>
           <div class="row">
