@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Les Roches De benslimane</title>
-<link rel="shortcut icon" href="frontside/assets/images/favicon.ico">
-<link rel="stylesheet" href="frontside/assets/css/master.css">
-<link rel="stylesheet" href="frontside/assets/css/responsive.css">
+<link rel="shortcut icon" href="/frontside/assets/images/favicon.ico">
+<link rel="stylesheet" href="/frontside/assets/css/master.css">
+<link rel="stylesheet" href="/frontside/assets/css/responsive.css">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
      crossorigin=""/>
