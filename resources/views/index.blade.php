@@ -5,9 +5,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <title>Les Roches De benslimane</title>
-<link rel="shortcut icon" href="{{asset('public/frontside/assets/images/favicon.ico')}}">
-<link rel="stylesheet" href="{{asset('public/public/frontside/assets/css/master.css')}}">
-<link rel="stylesheet" href="{{asset('public/frontside/assets/css/responsive.css')}}">
+<link rel="shortcut icon" href="{{asset('frontside/assets/images/favicon.ico')}}">
+<link rel="stylesheet" href="{{asset('frontside/assets/css/master.css')}}">
+<link rel="stylesheet" href="{{asset('frontside/assets/css/responsive.css')}}">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.3/dist/leaflet.css"
      integrity="sha256-kLaT2GOSpHechhsozzB+flnD+zUyjE2LlfWPgU04xyI="
      crossorigin=""/>
@@ -97,7 +97,7 @@
       <!--=== Start Header Navigation ===-->
       <div class="navbar-header" >
         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu"> <i class="icofont icofont-navigation-menu"></i> </button>
-        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="{{asset('public/frontside/assets/images/logo-black.png')}}" alt=""> <img class="logo logo-scrolled" src="{{asset('public/frontside/assets/images/logo-black.png')}}" alt=""> </a> </div>
+        <div class="logo"> <a href="index.html"> <img class="logo logo-display" src="{{asset('frontside/assets/images/logo-black.png')}}" alt=""> <img class="logo logo-scrolled" src="{{asset('frontside/assets/images/logo-black.png')}}" alt=""> </a> </div>
       </div>
       <!--=== End Header Navigation ===-->
 
@@ -130,9 +130,9 @@
       <div class="video-container">
         <div class="filter"></div>
         <video  class="fillWidth" autoplay loop muted>
-          <source src="{{asset('public/frontside/assets/images/video/agency.webm')}}" type="video/webm" />
+          <source src="{{asset('frontside/assets/images/video/agency.webm')}}" type="video/webm" />
         </video>
-        <div class="poster hidden"> <img src="{{asset('public/frontside/assets/images/video/agency.jpg')}}" alt="video-img"> </div>
+        <div class="poster hidden"> <img src="{{asset('frontside/assets/images/video/agency.jpg')}}" alt="video-img"> </div>
       </div>
     </div>
   </section>
@@ -163,7 +163,7 @@
 
    <!--=== What We Do Start ======-->
   <section class="white-bg row " style="display: flex; flex-wrap: wrap;justify-content: space-around;">
-    <div class="col-md-8" ><div class="box_img w-100 h-100" style="height:100%;" ><img class="w-100 h-100" style="height:100%;" src="{{asset('public/frontside/assets/images/onepage-bg-left.jpg')}}"></div></div>
+    <div class="col-md-8" ><div class="box_img w-100 h-100" style="height:100%;" ><img class="w-100 h-100" style="height:100%;" src="{{asset('frontside/assets/images/onepage-bg-left.jpg')}}"></div></div>
     <div class="col-md-4" style="padding-left: 80px;margin-top:80px;" >
 
         <h1 class="font-700 wow fadeTop" data-wow-delay="0.1s">Plan de masse</h1>
@@ -292,7 +292,7 @@
           <div class="slick testimonial">
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('public/frontside/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('frontside/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
                 <h5>Mohammed</h5>
                 <p>Architecte </p>
                 <h4>Nous sommes très fiers d'accompagner Les Roches De Benslimane sur ce projet. Un projet connecté à la nature, un lieu de quiétude, une structure respectant les normes les plus exigeantes.</h4>
@@ -300,7 +300,7 @@
             </div>
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('public/frontside/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('frontside/assets/images/team/avatar-2.jpg')}}" alt="avatar-1"/>
                 <h5>Najat </h5>
                 <p>Heureuse propriétaire</p>
                 <h4>Récemment installés au Maroc, nous avons longuement cherché notre point de chute. Le coup de foudre a été immédiat pour Les Roches De Benslimane</h4>
@@ -308,7 +308,7 @@
             </div>
             <!--=== Slide ===-->
             <div class="testimonial-item">
-              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('public/frontside/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
+              <div class="testimonial-content"> <img class="img-responsive img-circle" src="{{asset('frontside/assets/images/team/avatar-3.jpg')}}" alt="avatar-1"/>
                 <h5>Abdelkrim</h5>
                 <p>Heureux propriétaire</p>
                 <h4>L'endroit idéal quand on aime la nature et les grands espaces sans s'isoler du monde. Proche de l'école des enfants. Merci et bravo à l'architecte d'avoir pu imaginer un espace aussi fonctionnel.</h4>
@@ -480,11 +480,11 @@
 <!--=== Javascript Plugins ======-->
 
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyD9y4xzoG1g1VYlZR0Lre8rLI_6EJGWGs8"></script>
-<script src="{{asset('public/frontside/assets/js/jquery.min.js')}}"></script>
-<script src="{{asset('public/frontside/assets/js/validator.js')}}"></script>
-<script src="{{asset('public/frontside/assets/js/plugins.js')}}"></script>
-<script src="{{asset('public/frontside/assets/js/master.js')}}"></script>
-<script src="{{asset('public/frontside/assets/js/bootsnav.js')}}"></script>
+<script src="{{asset('frontside/assets/js/jquery.min.js')}}"></script>
+<script src="{{asset('frontside/assets/js/validator.js')}}"></script>
+<script src="{{asset('frontside/assets/js/plugins.js')}}"></script>
+<script src="{{asset('frontside/assets/js/master.js')}}"></script>
+<script src="{{asset('frontside/assets/js/bootsnav.js')}}"></script>
 <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
         <script>
           var wa_btnSetting = {"btnColor":"#16BE45","ctaText":"","cornerRadius":20,"marginBottom":75,"marginLeft":40,"marginRight":40,"btnPosition":"right","whatsAppNumber":"212633615092","welcomeMessage":"Hello","zIndex":999999,"btnColorScheme":"light"};
